@@ -2,13 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "dev": "nodemon index.js",
-  "lint": "eslint .",
-  "test": "echo 'No tests yet'",
-  "db:migrate": "node scripts/migrate.js"
-}
-,
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

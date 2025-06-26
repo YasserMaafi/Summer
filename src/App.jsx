@@ -2,6 +2,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Import components
 import Header from './components/Header';
+import Chatbot from './components/chatbot.jsx';
+
 // Import page components
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage.jsx';
@@ -45,6 +47,9 @@ function App() {
     <Router>
       <div>
         <Header />
+        <Chatbot />
+
+
         {/* Routes component defines all route paths */}
         <Routes>
           {/* Public route for login page */}
@@ -69,6 +74,10 @@ function App() {
           <Route path="/formations" element={<FormationPage />} />
 
           <Route path="/formations/:id" element={<FormationDetailsPage />} />
+
+          {/* Route for chatbot page */}  
+
+          
 
           
           {/* Route for unauthorized access attempts */}
