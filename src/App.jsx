@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Import components
 import Header from './components/Header';
-import Chatbot from './components/chatbot.jsx';
+import Chatbot from './components/Chatbot.jsx';
 
 // Import page components
 import LoginPage from './pages/LoginPage';
